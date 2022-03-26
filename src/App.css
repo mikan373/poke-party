@@ -1,38 +1,100 @@
+body {
+  background-color: #ffdf2c;
+}
+
+header {
+  width: 80%; /* 要素の幅指定は必須です */
+	margin: auto;
+}
+
+h1 {
+  color: #f73100;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+
+  color: #172c66;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content{
+  /*text-align: center;*/
+  display: flex;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content_analysis {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+  background: #e3f6f5;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  margin: 0.5em 0.5em 0.5em 0.5em;
+  width: 30%;
+}
+
+.content_analysis-title {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 100%;
+  margin: 0.2em;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+@media screen and (max-width: 959px) {
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content_my-party{
+    width: 100%;
+  }
+  .content_analysis {
+    width: 100%;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 480px) {
+  .content{
+    display: flex;
+    flex-wrap: wrap;
   }
-  to {
-    transform: rotate(360deg);
+  .content_my-party{
+    width: 100%;
   }
+  .content_my-party_pokemon{
+    width: 100%;
+  }
+}
+
+.pokemon-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.button-pokemon:hover {
+  background-color: #ffd803;
+  /*
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 40px 50px;
+  border-color: transparent transparent #228bc8 transparent;
+  */
 }

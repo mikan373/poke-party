@@ -1,0 +1,17 @@
+.analysis_CPHP{
+    color: #232323;
+    background: #fef6e4;
+    /*border: solid 2px #001858;*/
+    
+  }
+  
+  .progress {
+    width: 100%;
+    height: 30px;
+    font-size: 1em;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }

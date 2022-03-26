@@ -1,0 +1,9 @@
+.button-pokemon{
+    text-align: center;
+    background-color: #fef6e4;
+    display: block;
+    margin: 0.5em;
+    text-decoration: none;
+    color: black;
+    border-radius: 7px;
+  }
