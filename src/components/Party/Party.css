@@ -7,7 +7,7 @@
   align-items: center;
   padding: 0.5em 0.5em;
   margin: 0.5em 0.5em;
-  background-color: #e3f6f5
+  background-color: #F1F1F1
 }
 
 .content_my-party-title {
@@ -23,7 +23,7 @@
   margin: 0.5em 0.5em;
   
   color: #0d0d0d;
-  background: #fef6e4;
+  background: #ffffff;
   border: solid 2px #094067;
   /*width: 190px;*/
   width: 40%;

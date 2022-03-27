@@ -1,5 +1,5 @@
 body {
-  background-color: #ffdf2c;
+  background:linear-gradient(#57DEFC, #93CC37)
 }
 
 header {
@@ -8,8 +8,13 @@ header {
 }
 
 h1 {
-  color: #f73100;
-  font-family: 'Mochiy Pop P One', sans-serif;
+  color: #172c66;
+  font-family: 'Space Mono', monospace;;
+}
+
+h3 {
+  color: #172c66;
+  font-family: 'Space Mono', monospace;;
 }
 
 .App {
@@ -31,7 +36,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background: #e3f6f5;
+  background: #F1F1F1;
   padding: 0.5em 0.5em 0.5em 0.5em;
   margin: 0.5em 0.5em 0.5em 0.5em;
   width: 30%;
